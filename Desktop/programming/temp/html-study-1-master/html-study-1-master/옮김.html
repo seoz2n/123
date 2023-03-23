@@ -1,0 +1,45 @@
+<!-- 화면에 데이터를 입력할 때 사용  -->
+
+<h1>텍스트 입력1</h1>
+<input type="text" name="id" placeholder="내용을 입력하세요."/>
+<h1>텍스트 입력2</h1>
+<input type="text" name="id" value="기본값"/>
+<h1>텍스트 입력3</h1>
+<input type="text" name="id" placeholder="입력할 수 없습니다." readonly/>
+<h1>텍스트 입력4</h1>
+<input type="text" name="id" placeholder="비활성화" disabled/>
+<h1>비밀번호 입력</h1>
+<!-- 내용을 감추는 용도 -->
+<input type="password" name="pw" placeholder="비밀번호를 입력하세요"/>
+<h1>체크박스 입력</h1>
+<!-- 여러 선택지를 고르는 버튼 -->
+<!-- 기본 체크 옵션 checked -->
+<!-- 클릭 못 하게 하려면 disabled 또는 readonly -->
+<input type="checkbox" name="cb" /> 체크하세요
+<br/>
+<input type="checkbox" name="cb1" disabled /> 비활성
+<h1>라디오 버튼 입력</h1>
+<!-- 여러 선택지 중 하나만 고르는 버튼 -->
+<!-- 같은 name을 사용하여 그룹화 할 수 있다. -->
+<input type="radio" name="radio" checked />
+<input type="radio" name="radio" />
+<h1>이메일 입력</h1>
+<input type="email" name="id" />
+<h1>날짜 입력</h1>
+<input type="date" name="date" />
+<h1>시간 입력</h1>
+<input type="time" name="time" />
+<h1>파일 입력</h1>
+<input type="file" name="id" />
+<h1>범위 입력</h1>
+<input type="range" name="id" />
+<h1>색상 입력</h1>
+<input type="color" />
+
+<h1>셀렉트 박스</h1>
+<select name="select" >
+    <option value="-1"> 옵션을 선택하세요</option>
+    <option value="0" selected> 배</option>
+    <option value="1"> 바나나</option>
+    <option value="2"> 멜론</option>
+</select>
